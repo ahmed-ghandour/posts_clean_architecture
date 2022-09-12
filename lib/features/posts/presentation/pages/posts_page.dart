@@ -3,8 +3,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:posts_clean_architecture/core/widgets/loading_widget.dart';
 import 'package:posts_clean_architecture/features/posts/presentation/bloc/posts/posts_bloc.dart';
 import 'package:posts_clean_architecture/features/posts/presentation/pages/post_add_update_page.dart';
-import '../widgets/post_page/message_display_widget.dart';
-import '../widgets/post_page/post_list_widget.dart';
+import '../widgets/posts_page/message_display_widget.dart';
+import '../widgets/posts_page/post_list_widget.dart';
+
 
 class Postspage extends StatelessWidget {
   const Postspage({Key? key}) : super(key: key);
