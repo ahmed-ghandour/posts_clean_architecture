@@ -14,7 +14,7 @@ class PostDetailWidget extends StatelessWidget {
       padding: const EdgeInsets.all(8.0),
       child: Column(
         children: [
-          Text(post.title,style: const TextStyle(fontSize: 20),),
+          Text(post.title,style: const TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
           const Divider(height: 50),
           Text(post.body,style: const TextStyle(fontSize: 16),),
           const Divider(height: 50),
